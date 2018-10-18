@@ -4,22 +4,13 @@ A simple Vue.js plugin for handling browser cookies
 
 ## Installation
 
-### Browser
+```bash
+npm install vue-cookies-ts --save
 ```
-  <script src="https://unpkg.com/vue/dist/vue.js"></script>
-  <script src="https://unpkg.com/vue-cookies@1.5.7/vue-cookies.js"></script>
-```
-### Package Managers
-```
-npm install vue-cookies --save
 
-// require
-var Vue = require('vue')
-Vue.use(require('vue-cookies'))
-
-// es2015 module
+```ts
 import Vue from 'vue'
-import VueCookies from 'vue-cookies'
+import VueCookies from 'vue-cookies-ts'
 Vue.use(VueCookies)
 
 ```

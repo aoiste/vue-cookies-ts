@@ -1,8 +1,8 @@
 {
-  "name": "vue-cookies",
+  "name": "vue-cookies-ts",
   "version": "1.5.7",
   "description": "A simple Vue.js plugin for handling browser cookies",
-  "main": "vue-cookies.js",
+  "main": "lib/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +15,8 @@
     "vue",
     "cookie"
   ],
-  "author": "cmp-cc",
+  "typings": "./lib/main.d.ts",
+  "author": "ztytotoro",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cmp-cc/vue-cookies/issues"
