@@ -1,4 +1,4 @@
-# vue-cookies
+# vue-cookies-ts
 
 A simple Vue.js plugin for handling browser cookies
 
