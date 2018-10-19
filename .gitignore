@@ -42,3 +42,5 @@ index.html
 .idea
 version
 npm-debug.log
+
+lib/
