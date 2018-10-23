@@ -19,7 +19,7 @@ const DEFAULT_CONFIG: CookiesOption = {
     path: "; path=/"
 }
 
-const vueCookies: VueCookies = {
+export const vueCookies: VueCookies = {
     config(option: CookiesOption) {
         if (option.expires) {
             DEFAULT_CONFIG.expires = option.expires;
