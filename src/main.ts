@@ -1,15 +1,15 @@
-interface CookiesOption {
+export interface CookiesOption {
     expires?: string | number | Date,
     path?: string,
     domain?: string,
     secure?: boolean
 }
 
-interface VueCookies {
+export interface VueCookies {
     config: (option: CookiesOption) => void;
     get: (key: string) => string | null | object;
-    set: (key: string, value: any, option: CookiesOption) => VueCookies;
-    remove: (key: string, option: CookiesOption) => VueCookies | boolean;
+    set: (key: string, value: any, option?: CookiesOption) => VueCookies;
+    remove: (key: string, option?: CookiesOption) => VueCookies | boolean;
     isKey: (key: string) => boolean;
     keys: () => string[];
 }
