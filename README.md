@@ -273,7 +273,7 @@ this.$cookies.keys().join("\n")
 
 ## Explaination
 
-**[vue-cookies-ts](https://github.com/ztytotoro/vue-cookies-ts) is developed from [vue-cookies](https://github.com/cmp-cc/vue-cookies) without dependencies, It can exist independently, Friendly to [vuejs](https://github.com/vuejs/vue)**
+**[vue-cookies-ts](https://github.com/ztytotoro/vue-cookies-ts) is developed from [vue-cookies](https://github.com/cmp-cc/vue-cookies), It can exist independently, Friendly to [vuejs](https://github.com/vuejs/vue)**
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
