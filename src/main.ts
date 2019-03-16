@@ -7,7 +7,7 @@ export {
 
 export default {
     install(Vue: any) {
-        Vue.prototype.$cookies = cookies
-        Vue.cookies = cookies
+        Vue.prototype.$cookies = new cookies()
+        Vue.cookies = new cookies()
     }
 }
