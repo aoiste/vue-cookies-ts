@@ -1,6 +1,6 @@
 {
   "name": "vue-cookies-ts",
-  "version": "1.5.13",
+  "version": "1.5.16",
   "description": "A simple Vue.js plugin for handling browser cookies",
   "main": "lib/main.js",
   "scripts": {
@@ -11,14 +11,16 @@
     "url": "git+https://github.com/ztytotoro/vue-cookies-ts.git"
   },
   "files": [
-    "lib"
+    "src/*.ts",
+    "lib/*.js",
+    "types/*.d.ts"
   ],
   "keywords": [
     "javascript",
     "vue",
     "cookie"
   ],
-  "typings": "./lib/main.d.ts",
+  "typings": "./types/main.d.ts",
   "author": "ztytotoro",
   "license": "MIT",
   "bugs": {
@@ -26,6 +28,7 @@
   },
   "homepage": "https://github.com/ztytotoro/vue-cookies-ts#readme",
   "dependencies": {
-    "cookies-ts": "^1.0.2"
+    "cookies-ts": "^1.0.2",
+    "vue": "2.6.10"
   }
 }
