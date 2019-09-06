@@ -1,4 +1,5 @@
-import '../types/vue';
+/// <reference path="../types/vue.d.ts" />
+
 import cookies from 'cookies-ts';
 
 import _Vue from 'vue';

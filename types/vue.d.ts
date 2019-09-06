@@ -1,4 +1,4 @@
-import { Cookies } from './main';
+import { Cookies } from 'cookies-ts';
 import Vue, { VueConstructor } from 'vue';
 
 declare module 'vue/types/vue' {

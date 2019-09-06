@@ -17,10 +17,9 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "declarationDir": "./types"
+    "declarationDir": "./lib"
   },
   "exclude": [
-    "./demo",
-    "./types"
+    "./demo"
   ]
 }
