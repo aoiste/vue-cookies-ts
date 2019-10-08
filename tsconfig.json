@@ -2,12 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "es2015",
-    "lib": [
-      "dom",
-      "es2015",
-      "es2016",
-      "es2017"
-    ],
+    "lib": ["dom", "es2015", "es2016", "es2017"],
     "declaration": true,
     "sourceMap": true,
     "outDir": "./lib",
@@ -19,7 +14,5 @@
     "emitDecoratorMetadata": true,
     "declarationDir": "./lib"
   },
-  "exclude": [
-    "./demo"
-  ]
+  "exclude": ["./demo", "./lib"]
 }
