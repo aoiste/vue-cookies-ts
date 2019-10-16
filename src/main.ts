@@ -1,7 +1,4 @@
-/// <reference path="../types/vue.d.ts" />
-
 import cookies from 'cookies-ts';
-
 import _Vue from 'vue';
 
 export { CookiesOption, Cookies } from 'cookies-ts';

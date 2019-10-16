@@ -2,9 +2,11 @@
   "name": "vue-cookies-ts",
   "version": "1.5.17",
   "description": "A simple Vue.js plugin for handling browser cookies",
-  "main": "lib/main.js",
+  "main": "lib/main.common.js",
+  "module": "lib/main.esm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -13,7 +15,6 @@
   "files": [
     "src/*.ts",
     "lib/*.js",
-    "lib/*.d.ts",
     "types/*.d.ts"
   ],
   "keywords": [
@@ -21,7 +22,7 @@
     "vue",
     "cookie"
   ],
-  "typings": "./lib/main.d.ts",
+  "typings": "./types/index.d.ts",
   "author": "ztytotoro",
   "license": "MIT",
   "bugs": {
@@ -29,7 +30,15 @@
   },
   "homepage": "https://github.com/ztytotoro/vue-cookies-ts#readme",
   "dependencies": {
-    "cookies-ts": "^1.0.2",
+    "cookies-ts": "^1.0.4",
     "vue": "2.6.10"
+  },
+  "devDependencies": {
+    "rollup": "^1.24.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.4"
   }
 }
