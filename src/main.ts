@@ -1,12 +1,12 @@
 import cookies from 'cookies-ts';
-import _Vue from 'vue';
+import Vue from 'vue';
 
 export { CookiesOption, Cookies } from 'cookies-ts';
 
 export default {
-  install(Vue: typeof _Vue) {
+  install(_Vue: typeof Vue) {
     const vueCookies = new cookies();
-    Vue.prototype.$cookies = vueCookies;
-    (Vue as any).cookies = vueCookies;
+    _Vue.prototype.$cookies = vueCookies;
+    (_Vue as any).cookies = vueCookies;
   }
 };

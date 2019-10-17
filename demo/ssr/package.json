@@ -12,13 +12,13 @@
   },
   "dependencies": {
     "cookies-ts": "^1.0.2",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue-cookies-ts": "^1.5.19"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.3.1",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "^1.16.4",
-    "vue-cookies-ts": "file:../../"
+    "prettier": "^1.16.4"
   }
 }
